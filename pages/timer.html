@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <link rel="icon" href="../images/FSB_Emblem.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/timer_script.js" defer></script>
+    <script src="../js/theme_script.js" defer></script>
+</head>
+<body>
+  <header class="header_wrap">
+      <section class="header">
+          <a href="../index.html"><img src="../images\ava.jpg" align="left" height="200"></a>
+          <nav class="menu_nav">
+              <a href="../index.html#0">Обо мне</a>
+              <a href="../index.html#1">Мои черты</a>
+              <a href="../index.html#2">Автор</a>
+              <a href="../pages/1.html">Резюме</a>
+              <a href="../pages/contacts.html">Контакты</a>
+              <a href="../pages/gallery.html">Галерея</a>
+              <a href="../pages/example_storage.html">Новые задачи</a>
+              <a href="../pages/timer.html">Рабочий таймер</a>
+          </nav>
+          <button id="themeToggle">Переключить тему</button>
+      </section>
+  </header>
+
+    <main>
+      <section class="main6">
+        <div class="container">
+            <div class="section-container">
+                <button type="button" name="focus_button" id="focus" class="btn btn-timer btn-focus button">Работа</button>
+                <button type="button" name="shortbreak_obutton" id="shortbreak" class="btn btn-shortbreak button">Отдых</button>
+                <button type="button" name="longbreak_button" id="longbreak" class="btn btn-longbreak button">Долгий отдых</button>
+            </div>
+
+            <div class="time-btn-container">
+                <span id='time' class="time-container">00:00</span>
+                <div class="btn-container">
+                    <button type="button" name="start_button" id='btn-start' class='show button'>Начать</button>
+                    <button type="button" name="pause_button" id='btn-pause' class='hidden button'>Пауза</button>
+                    <button type="button" name="reset_button" id='btn-reset' class='hidden button'>Рестарт</button>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer id="2">
+      <ul align="left" type="square">
+        <li>Сайт Ильи</li>
+      </ul>
+    </footer>
+
+</body>
+</html>
